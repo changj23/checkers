@@ -7,7 +7,7 @@ public class Menu extends JFrame{
 	private JCheckBox Double;
 	private JButton start;
 	
-	
+	// Test comment
 	public Menu(Handler handler){
 		super("Checkers Menu");
 		setLayout(new FlowLayout());

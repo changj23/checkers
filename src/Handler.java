@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import javax.swing.*;
 import javax.swing.border.Border;
 
+	// test comment
 	public class Handler extends JFrame implements ActionListener{
 		private int setup;
 		private int blacks;
@@ -50,12 +51,6 @@ import javax.swing.border.Border;
 			game.setlblPlayer(); //displays the active player
 		}
 		
-		
-		
-		
-		
-		
-		
 		public void setupCompleteClicked(){
 			reds=0;
 			blacks=0;
@@ -78,10 +73,6 @@ import javax.swing.border.Border;
 			menu.Single().setSelected(true);
 			menu.Double().setSelected(false);
 		}
-		
-		
-		
-		
 		
 		public void DoubleCheckBoxClicked(){
 			menu.Double().setSelected(true);

@@ -44,6 +44,8 @@ public class Gameboard extends JFrame{
 	Icon redselected = new ImageIcon(getClass().getResource("redselected.png"));
 	Icon[] squarecolour = new Icon[BTNS.length];
 	
+
+	// test comment
 	public Gameboard(Handler handler){
 		super("Checkers");
 		setLayout(new FlowLayout());
